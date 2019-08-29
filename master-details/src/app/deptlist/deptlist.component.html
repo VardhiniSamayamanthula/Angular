@@ -1,0 +1,6 @@
+<p>deptlist works!</p>
+<div class = 'container'>
+<ul  *ngFor = 'let d of depList' class="list-group">
+    <li class = 'list-group-item' (click) = 'onClick(d)'>{{d.dno}}{{d.dname}}</li>
+</ul>
+</div>
